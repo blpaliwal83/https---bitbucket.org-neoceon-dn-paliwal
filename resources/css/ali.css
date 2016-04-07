@@ -1,0 +1,501 @@
+/*.bottom-cross-yellow-btn-cls{
+    height: 50px !important;
+    background: url(../../resources/images/crossyellow.png) no-repeat !important;
+    width: 50px;
+    position: absolute;
+    bottom: -110px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-size: contain !important;
+}
+.bottom-cross-blue-btn-cls{
+    height: 50px !important;
+    background: url(../../resources/images/feedbackclose.png) no-repeat !important;
+    width: 50px;
+    position: absolute;
+    bottom: -110px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-size: contain !important;    
+}
+.contactinfo-icon-cls .info-transparent-phone{
+    background: url(../../resources/images/transparentphone.png) no-repeat !important;
+    margin: 9px 6px 0 2px;
+    background-size: contain !important;
+    height: 30px;
+    width: 30px;
+}
+
+.contactinfo-icon-cls .info-transparent-web{
+    background: url(../../resources/images/transparentwebsite.png) no-repeat !important;
+    margin: 7px auto;
+    background-size: contain !important;
+    height: 25px;
+    width: 25px;
+    
+}
+
+.contactinfo-icon-cls .info-transparent-message{
+    background: url(../../resources/images/message.png) no-repeat !important;
+    margin: 12px auto;
+    background-size: contain !important;
+    height: 23px;
+    width: 23px;
+}
+.locationViewTextFieldClass #ext-element-665{
+    font-size: small;
+}
+.locationViewTextFieldClass {
+    margin-top: 15px;
+}
+.UserLocattion{
+    margin-right:14px;
+}
+#UserNameLabel .x-innerhtml{
+    line-height: 42px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+#UserMessageLength .x-innerhtml{
+    font-size: 12px;
+    margin-right: 10px;
+}
+#DescriptionPanel .x-layout-box > .x-layout-box-item{
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    border-bottom: 1px solid #f2f2f2;
+}
+#ChangeEmailAddress{
+    color: rgb(50, 175, 231);
+    font-size: 15px;
+    padding-left: 21px !important;
+    background-color: white;
+    border-bottom: 1px solid #cccccc!important;
+    font-size: 15px;
+    padding-left: 30px;
+    height: 50px !important;'
+}
+#ChangePasswordButton{
+    color: rgb(50, 175, 231);
+    font-size: 15px;
+    padding-left: 21px !important;
+    background-color: white;
+    border-bottom: 1px solid #cccccc!important;
+    font-size: 15px;
+    padding-left: 30px;
+    height: 50px !important;'
+}
+.settings-label-text-cls .x-button-label{
+    overflow: visible;
+    font-size: 15px;
+    padding-left: 20px !important;
+    font-family: Opensans light !important;
+}
+.setting-toggle-cls .x-label-fontcolor-pushNotication{
+    margin-left: 18px;
+    font-size: 18px!important;
+    font-family: Opensans light;
+    background-color:white;
+}
+.settings-label-text-cls .x-form-label{
+     margin-left: 18px;
+    font-size: 18px!important;
+    font-family: Opensans light;
+    background-color:white;
+}
+.settings-label-text-cls.settings-updated-label-cls{
+    margin-left: 18px;
+    font-size: 15px!important;
+    font-family: Opensans light;
+}
+.settings-label-text-cls.settings-updated-label-text-cls{
+    margin-left: 18px;
+    font-size: 15px!important;
+    font-family: Opensans light;
+}
+.settings-label-text-cls .x-innerhtml{
+    line-height:45px;
+}
+.setting-select-panel-cls{
+    border-bottom:3px solid #f2f2f2;
+}
+.comment-time-class{
+    margin-left: 6px;
+}
+
+.comment-mesage-div{
+
+    font-family: Open Sans;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color:black !important;
+}
+.comment-user-name-td{
+     font-weight: 600 !important;
+     font-family: Open Sans;
+}
+.comment-time-class{
+    font-family: Open Sans;
+    font-weight: 400;
+    color:#a7a7a7 !important;
+}
+#SendComment{
+    font-family: Open Sans;
+    font-weight: 700;
+    color: #2b2b2b !important;
+    font-size: 19px !important;
+}
+#DescriptionPanel{
+    border-bottom:1px solid #cccccc;
+}
+#EventNameOnEventPage{
+    border-top:1px solid #cccccc;
+}
+#EventLocationCityOnEventPage{
+    border-bottom-color: #cccccc !important;
+}
+#EventLocationStateOnEventPage{
+    border-bottom-color: #cccccc !important;
+}
+#EventLocationZipOnEventPage{
+    border-bottom-color: #cccccc !important;
+}
+#EventStartDate {
+    border-bottom-color: #cccccc !important;
+}
+#EventEndDate{
+     border-bottom-color: #cccccc !important;
+}
+.aMpM{
+    border-bottom-color:#cccccc !important;
+}
+#NoticeImagPanel{
+    border-bottom-color:#cccccc !important;
+}
+#PayStatus{
+    border-bottom-color:#cccccc !important;
+}
+#EventHotFive{
+    border-bottom-color:#cccccc !important;
+}
+#NoticeSlot{
+    border-bottom-color:#cccccc !important;
+}
+#EventPhone{
+    border-bottom-color:#cccccc !important;
+}
+#EventEmail{
+    border-bottom-color:#cccccc !important;
+}
+#EventWebsite{
+    border-bottom-color:#cccccc !important;
+}
+#EventComments{
+    border-bottom-color:#cccccc !important;
+}
+#PromotionTitle{
+    border-top-color: #cccccc !important;
+    border-bottom-color: #cccccc !important;
+
+}
+#PromotionLocationCity{
+   border-bottom-color: #cccccc !important; 
+}
+#PromotionLocationState{
+    border-bottom-color: #cccccc !important;
+}
+#PromotionLocationZip{
+    border-bottom-color: #cccccc !important;
+}
+#PromotionFromDate{
+    border-bottom-color: #cccccc !important;
+}
+#PromotionToDate{
+    border-bottom-color: #cccccc !important;
+}
+.addPromotionDisplayOnCls{
+    border-bottom-color: #cccccc !important;
+}
+#PromotionHotFive{
+    border-bottom-color: #cccccc !important;
+}
+.addPromotionAudioPanelCls{
+    border-bottom-color: #cccccc !important;
+}
+#PromotionWebsite{
+    border-bottom-color: #cccccc !important;
+}
+.accountSettings{
+    border-bottom:1px solid #cccccc !important;
+}
+#PushNoificaions{
+    border-bottom:1px solid #cccccc !important;
+}
+#settingSelectNotificationPanel{
+    border-bottom:1px solid #cccccc !important;
+}
+#LocationService{
+    border-bottom:1px solid #cccccc !important;
+}
+#settingsCurrentLocationPanel{
+    border-bottom:1px solid #cccccc !important;
+}
+#settingsHelpAndFeedBack{
+    border-bottom:1px solid #cccccc !important;
+}
+#settingsTermsAndCondition{
+    border-bottom:1px solid #cccccc !important;
+}
+#settingsAbout{
+    border-bottom:1px solid #cccccc !important;
+}
+.setting-select-radius-panel-cls{
+    border-bottom:1px solid #cccccc !important;
+}
+#accountUserNamePanel{
+    border-bottom-color: #cccccc !important;
+}
+.addEventVideoLinkPanelCls{
+    border-bottom-color: #cccccc !important;
+}
+.addEventAudioLinkPanelCls{
+    border-bottom-color: #cccccc !important;
+}
+.addEventCategoryPanelCls{
+    border-bottom-color: #cccccc !important;
+}*/
+/*.notice-details-label-cls{
+    font-weight:500 !important;
+}
+.notice-details-date-label-cls{
+    font-weight: 400 !important;
+}
+.notice-details-location-label-cls{
+    font-weight:400 !important;
+    font-size:14px !important;
+}
+.wapperheading h4{
+    font-weight:600;
+    font-size:18px !important;
+}
+.leftseticonimg{
+    margin-left: 7px;
+}
+.leftseticon{
+    font-weight: 400;
+}
+.leftseticon p {
+    font-size: 14px !important;
+    font-family: 'Opensans' !important;
+}
+.home-notice-details-date-label-cls{
+    font-size:14px !important;
+    font-weight: 400;
+}
+.home-notice-details-location-label-cls{
+    font-size: 14px !important;
+    font-weight: 400;
+}
+.notice-details-date-label-cls{
+    
+    font-size:14px !important;
+    margin-left: 5px !important;
+}
+.x-button .notice-details-location-label-cls{
+
+    font-size:14px !important;
+    font-weight: 400 !important;
+    margin-left: 5px !important;
+}
+.x-button-icon.home-notice-details-calander-icon-cls{
+    height:17px !important;
+}
+.x-button-icon.home-notice-details-map-icon-cls{
+    height:17px !important;
+}
+.x-button-icon.notice-details-calander-icon-cls{
+    height:17px !important;
+    margin-top: 4px !important;
+}
+.x-button-icon.notice-details-map-icon-cls{
+    height:17px !important;
+    margin-top: 4px !important;
+}
+.myzone-tab-panel-cls .x-tab {
+    width: 25%;
+    border-right: 1px solid #36A6D8 !important;
+    
+}
+
+.myzone-tab-panel-cls .x-tabbar.x-docked-top .x-tab{
+    padding:0px !important;
+}
+
+#MySpaceTabsPanel .x-tabbar .x-tab .x-button-label {
+    font-weight: 600 !important;
+    text-shadow: none;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 1px;
+}
+
+
+.myzone-tab-panel-cls .RSVPTab{
+    top: 7px;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+    position: absolute !important;
+}
+
+.myzone-tab-panel-cls .FavoritesTab {
+    top: 7px;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+    position: absolute !important;
+}
+
+.myzone-tab-panel-cls .MyNoticesTab {
+    top: 7px;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+    position: absolute !important;
+}
+
+.myzone-tab-panel-cls .MyPromotionsTab {
+    top: 7px;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+    position: absolute !important;
+}
+.totalNumber{
+    font-size: 15px;
+    margin-left: 4px;
+}
+
+.totalNumbereye{
+    position: relative;
+    top: -2px;
+    left: 5px;
+}
+.sp{
+    top:-1px !important;
+}
+.listtitle h2{
+    font-weight:600;
+    font-family:'Open sans';
+}
+.default-toggle-field-cls .x-toggle {
+    position: absolute;
+    right: 10px;
+    width:58px;
+    height:38px;
+}
+.default-toggle-field-cls .x-toggle .x-thumb:after{
+    background-image: -webkit-linear-gradient(top, #ffffff,#ffffff 3%,#ffffff) !important;
+    width:33px;
+    height:33px;
+    position:absolute;
+    top:2px;
+
+}
+.cross-blue-btn-icon-cls.x-button-plain{
+    background: url(../../resources/images/blue-close-icon.png) no-repeat !important; 
+    background-size:contain !important;
+    width:55px;
+}
+.list{
+    background-image: url('../../resources/images/sidemenu-icon.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+.dateimg img {
+    width: 23px !important;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#MySpaceTabsPanel .x-tabbar-dark{
+    border-bottom-color: #32AFE7;
+}
+#EventDate .x-button-label{
+    margin-left: -4px;
+}
+.popup-blue-default-cls .x-innerhtml{
+    width:20% !important;
+    height:21px !important;
+    line-height: 18px !important;
+    font-size: 12px !important;
+}
+.round-img img{
+    width:80px;
+    transform: rotate(3deg);
+}
+.calender-default-date-picker-cls.ux-date-picker thead td span{
+    color: #C7D6DC;
+    font-size: 17px;
+    font-weight: 100;
+    height: 30px;
+    left: 3.5%;
+    position: absolute;
+    top: 61px;
+    width: 71%;
+    z-index: 0;
+    text-shadow: white 0px 0px 0px;
+    font-family: 'Open sans';
+}
+.weekdayname {
+    color: #32AFE7 !important;
+    font-family: 'Open sans';
+    font-weight: 400 !important;
+
+}
+.ux-date-picker tbody td{
+    border-bottom: 0px solid white !important;
+    border-right:  0px solid white !important;
+    border-top:  0px solid white !important;
+}
+.ux-date-picker td.day{
+font-weight: 600;
+font-family: 'Open sans' !important;
+border-radius: 2px;
+border: 1px solid #cccccc;
+border-top:1px solid #cccccc !important;
+height:32px;
+}
+ .ux-date-picker td.nextmonth {
+    font-weight:300 !important;
+}
+#EventTitle .x-button-label{
+    margin-left: 2px;
+}
+*/
+.listtitle h2{
+    margin-left: 1px !important;
+}
+.MyNoticesTab{
+    left:14px !important;
+}
+#MySpaceTabsPanel .x-tabbar .x-tab .x-button-label{
+    bottom:7px !important;
+}
+#MySpaceTabsPanel .x-tabbar-dark{
+    height:65px;
+}
+.x-tabbar.x-docked-top .x-tab.x-tab-normal{
+    height:3.4em !important;
+}
+.x-tabbar.x-docked-top .x-tab .x-button-icon{
+    top:17px !important;
+}
+.x-tabbar-dark{
+    border-top: 1px solid #36A6D8 !important;
+}

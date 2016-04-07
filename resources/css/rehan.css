@@ -1,0 +1,161 @@
+/*.x-button-icon.twitter-icon-cls {
+    background-image: url("../images/twitter.png");
+    background-size: contain;
+}
+
+.x-button-icon.facebook-icon-cls {
+    background-image: url("../images/log-in-fb.png");
+    background-size: contain;
+    
+}
+
+.loginViewFaceBookPanelCls {
+    background: #3b5998;
+    height: 70px;
+}
+
+.loginViewTwitterPanelCls {
+    background: #4099FF;
+    height: 70px;
+}
+
+.loginViewFaceBookPanelCls .x-button-label,.loginViewTwitterPanelCls .x-button-label{
+    color: #FFFFFF;
+}
+
+#Login #txtUserEmail{
+    border-bottom-width: 2px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: rgb(43, 43, 43) !important;
+    color: white;
+    background-color: rgb(63, 63, 63) !important;
+}
+.upDateColorBackGround.x-toolbar .x-button.x-button-action{
+    background-color: #32AFE7 !important;
+    background-image: -webkit-linear-gradient(top, #32AFE7 ,#32AFE7 3%,#32AFE7 )!important;
+    
+}
+
+#eventsearchfield .x-clear-icon{
+    display: block !important;
+    background-image: url(../../resources/images/search_close.png);
+    background-color: transparent !important;
+    background-size: contain;
+    height: 24px !important;
+    width: 23px !important;
+    position: absolute;
+    top: 26px;
+    right: -6px;
+}
+
+.innercolor.inner-color-update {
+    color: #32afe7 !important;
+    -webkit-text-fill-color: #32afe7 !important;
+    font-weight: 300;
+}
+<<<<<<< Updated upstream
+*/
+
+/*#NotificationCategoryMultiSelect .bottomButtonToolbar.x-toolbar-dark.x-docked-bottom{
+    border-top-color: transparent;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#NotificationCategoryMultiSelect .x-innerhtml{
+    color: #36AEE4;
+}
+
+#NotificationCategoryMultiSelect .x-body{
+    background-color: white;
+}
+
+.x-msgbox-buttons .x-button-normal span{
+    opacity: 1 !important;
+    font-family: 'Open Sans' !important;
+    font-weight: 600 !important;
+}
+
+.x-msgbox-buttons .x-button-label{
+    font-family: 'Open Sans' !important;
+    font-weight: 600 !important;
+    opacity: 1 !important;
+}
+
+.x-msgbox-dark .x-msgbox-text{
+    color: #dcb209 !important;
+    font-weight: bold;
+    font-size: 17px;
+    text-shadow: #dcb209 0 0em 0em !important;
+}
+<<<<<<< Updated upstream
+*/
+
+
+#ForgotPassword .x-button-label{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 600 !important;
+    opacity: 1;
+    -webkit-box-flex: 1;
+    flex: 1 0 auto;
+    -webkit-box-align: center;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+#AlbumsList .galleryText {
+    color: #fff;
+    font-size: 26px;
+    position: absolute;
+    top: 0;
+    font-family: 'Open Sans';
+    font-weight: inherit;
+    left: 0;
+    height: 30px;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    bottom: 0;
+    line-height: 26px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 70%;
+}
+
+/*.x-dock.x-sized > .x-dock-body {
+    background-color: white;
+}*/
+
+#locationDoneButton{
+    background-color: #32AFE7 !important;
+    color: White !important;
+    height: 50px !important;
+    border-radius: 5px !important;
+    width: 130px !important;
+    margin: 5% auto;
+    background-image: -webkit-linear-gradient(top, #32AFE7,#32AFE7);
+
+}
+
+#EventDescription.default-botom-border {
+    border-bottom: none !important;
+    }
+
+#EventList .default-botom-border {
+    border-bottom: 1px solid rgba(220, 218, 218, 0.48) !important;
+}
+.bottom-cross-yellow-close-btn-cls{
+    height: 50px !important;
+    background: url(../../resources/images/notice-cancel-icon.png) no-repeat !important;
+    width: 50px;
+    position: absolute; 
+    bottom: 270px;
+    right: 10px;
+    top: -90px;
+    margin: auto;
+    background-size: contain !important;
+}

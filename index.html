@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html manifest="" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy">
+    <title>DNB</title>   
+    <script type="text/javascript" src="cordova.js"></script>
+    <style type="text/css">
+    
+        html, body {
+            height: 100%;
+            background-image:url("./resources/images/splash.PNG");
+            width: 100%;
+            margin: auto;
+            background-size: 100% 100% !important;
+            background-repeat: no-repeat;
+        }
+        .setting-toggle-cls .x-toggle{
+            position: absolute;
+            right: 5px;
+            top: 7px;
+        }
+        .initLoaderCls{
+            width: 50px;
+            position: absolute;
+            height: 50px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 0;
+            bottom: 12px;
+            }
+        #appLoadingIndicator {
+            height: 100%;
+            background-image:url("./resources/images/splash.PNG");
+            width: 100%;
+            margin: auto;
+            background-size: 100% 100% !important;
+            background-repeat: no-repeat;
+           
+        }
+
+        @-webkit-keyframes appLoadingIndicator{
+            0% {
+                opacity: 0.8
+            }
+            50% {
+                opacity: 0
+            }
+            100% {
+                opacity: 0.8
+            }
+        }
+    </style>
+    <!-- The line below must be kept intact for Sencha Command to build your application -->
+    <script id="microloader" type="text/javascript" src=".sencha/app/microloader/development.js"></script>
+
+<!--     <link rel="stylesheet" href="resources/css/Styles.css">
+ -->
+    <link rel="stylesheet" href="resources/css/dnb.css">
+
+    <link rel="stylesheet" href="resources/css/ali.css">
+
+    <link rel="stylesheet" href="resources/css/rehan.css">
+
+    <link rel="stylesheet" href="resources/css/dnb-frontend.css">
+
+    <link rel="stylesheet" href="resources/css/ux-date-picker.css">
+
+     <script src="http://maps.google.com/maps/api/js?libraries=places"></script>
+    
+    <script type="text/javascript" src="app/lib/jQuery-1.8.2.js"></script>
+    <script type="text/javascript" src="app/lib/OAuth.js"></script>
+    <script type="text/javascript" src="app/lib/paypal-mobile-js-helper.js"></script>
+    <script type="text/javascript" src="app/lib/openfb.js"></script>
+    <!-- <script type="text/javascript" src="cordova.js"></script> -->
+    
+</head>
+<body>
+    <div id="appLoadingIndicator">
+    </div>
+</body>
+</html>

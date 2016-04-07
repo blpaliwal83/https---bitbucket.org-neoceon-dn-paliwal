@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+         xmlns:android = "http://schema.android.com/apk/res/android"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id      = "com.wowappy.MyHive"
+    version     = "1.0.0">
+    <name>MyHive</name>
+    <description>
+    MyHive
+    </description>
+    <author href=""
+        email="support@wowappy.com">
+      WowAppy.com
+    </author>
+    <!--<preference name="phonegap-version" value="3.7.0" />-->
+   <preference name="android-minSdkVersion" value="13" />
+ <preference name="android-targetSdkVersion" value="16" /> 
+
+  <gap:platforms>
+        <!--<gap:platform name="android" minVersion="12" />-->
+        <gap:platform name="webos" />
+        <gap:platform name="symbian.wrt" />
+        <gap:platform name="blackberry" project="widgets"/>
+    </gap:platforms>
+
+  <platform name="android">
+    <source-file src="src/android/Clipboard.java" target-dir="src/com/verso/cordova/clipboard" />
+     </platform>
+
+  <gap:config-file platform="android" parent="/*" mode="add">
+    <uses-permission  android:name="com.verso.cordova.clipboard"/>
+  </gap:config-file>
+
+  <gap:config-file platform="android" parent="/*" mode="add">
+    <uses-permission  android:name="org.apache.cordova.geolocation"/>
+  </gap:config-file>
+  
+  <icon src="Icon.png" gap:role="default" /> 
+ 
+	  <icon src="resources/icons/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi" xmlns:gap="http://phonegap.com/ns/1.0" />
+  <icon src="resources/icons/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi" xmlns:gap="http://phonegap.com/ns/1.0" />
+  <icon src="resources/icons/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi" xmlns:gap="http://phonegap.com/ns/1.0" />
+  <icon src="resources/icons/icon-96-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" xmlns:gap="http://phonegap.com/ns/1.0" />
+
+  <gap:splash src="Default.png" />
+  <gap:splash src="resources/startup/ldpi.png" gap:platform="android" gap:qualifier="port-ldpi" xmlns:gap="http://phonegap.com/ns/1.0" />
+  <gap:splash src="resources/startup/mdpi.png" gap:platform="android" gap:qualifier="port-mdpi" xmlns:gap="http://phonegap.com/ns/1.0" />
+  <gap:splash src="resources/startup/hdpi.png" gap:platform="android" gap:qualifier="port-hdpi" xmlns:gap="http://phonegap.com/ns/1.0" />
+ <gap:splash src="resources/startup/xhdpi.png" gap:platform="android" gap:qualifier="port-xhdpi" xmlns:gap="http://phonegap.com/ns/1.0" />
+
+	
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <!-- sample preference specification -->
+	<preference name="phonegap-version" value="3.7.0" />
+  <preference name="orientation" value="portrait" />
+  <preference name="SplashScreen" value="Default" />
+  <preference name="SplashScreenDelay" value="6000" />
+  <preference name="AutoHideSplashScreen" value="true" />
+  <preference name="KeepRunning" value="true"/>
+    <cordova>
+
+    <access origin=".*" browserOnly="true"/>
+		
+   <!--  <preference name="useBrowserHistory" value="true" /> -->
+    </cordova>
+  <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" /> 
+  <gap:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
+  <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+  <gap:plugin name="com.verso.cordova.clipboard" version="0.1.0" />
+ 
+</widget>
